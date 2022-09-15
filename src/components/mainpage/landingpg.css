@@ -1,0 +1,47 @@
+.landing_page_bg{
+    background:url(./../images/bg.png) no-repeat fixed;
+    height:110vh;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+.overlay{
+    background:rgba(0, 0, 0, 0.6);
+    height:110vh;
+    overflow: hidden;
+}
+
+.logo{
+    position: relative;
+    left: 40px;
+    top:40px;
+}
+
+.logo2{
+    position: relative;
+    left:75px;
+    top:20px;
+}
+.landing_page_text{
+    position: relative ;
+    left:100px;
+    top: 220px;
+    font-size: 60px;
+    font-family: 'poppins';
+}
+
+.first_text{
+   font-size: 50px;
+}
+.main_text{
+   
+    font-size: 60px;
+    color: rgba(248, 65, 107, 1);
+    font-weight: bold;
+}
+.scnd_text{
+    position: relative;
+    font-size: 50px;
+    left:260px;
+    
+    
+}

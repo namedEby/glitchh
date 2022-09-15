@@ -1,0 +1,51 @@
+.header{
+    display:flex;
+    flex-direction: row;
+
+} 
+
+.notificationItem{
+
+    border-bottom: .5px solid rgba(112, 112, 112, 1);
+}
+
+.resultContent{
+  padding:10px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.header>img{
+    border-radius: 75px;
+    margin-right: 20px;
+}
+
+.username{
+    margin:0%;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'poppins';
+}
+
+.content{
+    margin:0%;
+    color: rgba(187, 178, 178, 1);
+    font-family: 'poppins';
+}
+
+.follow_btn{
+    position: absolute;
+    right: 0%;
+    margin-right: 20px;
+    
+    min-width:100px !important;
+    margin-top: 10px;
+    height:34px !important;
+    align-content: center;
+    background:#AD2A4A !important; 
+    border: none;
+    color:white;
+    font-size: 14px;
+    font-family: "poppins"; 
+    border-radius: 10px;
+}

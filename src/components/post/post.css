@@ -1,0 +1,111 @@
+
+.post{
+    width: 750px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left:30px;
+    
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-family:'poppins';
+    background:linear-gradient(
+        rgba(21, 15, 15, 0.2646),
+        rgba(21, 15, 15, 0.6237),
+        rgba(21, 15, 15, 0.378),)!important;
+    
+    border: 1px solid;
+    border-radius: 15px;
+}
+.post__avatar{
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    width: 130px;
+    height: 120px;
+}
+
+.post__header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    background: transparent;
+}
+.post__header .MoreHorizIcon {
+    position: absolute;
+    left:70%;
+    background:transparent !important;
+}
+
+.usernames>h3{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'poppins';
+    letter-spacing: 2px;
+    background-color: transparent !important;
+}
+.usernames>h6{
+    font-size: 10px;
+    color:rgba(136, 132, 132, 1);
+    font-family: 'poppins';
+    letter-spacing: 2px;
+    background: transparent !important;
+}
+
+.post__image{
+    width:95vh;
+    object-fit: contain;
+    border-radius: 15px;
+    background: transparent;
+
+}
+
+.caption{
+    
+    margin: 10px;
+    font-size: 15px;
+    color: rgba(178, 172, 172, 1);
+    font-family: 'poppins';
+    letter-spacing: 2px;
+    background-color:transparent;
+}
+.like_comment_share{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    background: transparent;
+}
+.like_comment_share>button{
+    
+    margin-right: 9%;
+    min-width:194px !important;
+    margin-top :30px;
+    height:34px !important;
+    align-content: center;
+    background-color: rgba(63, 59, 59, 1) !important;
+    border: none;
+    color:white;
+    font-size: 14px;
+    font-family: "poppins"; 
+    border-radius: 10px;
+}
+.button_text{
+    color: rgba(255, 255, 255, 1);
+    font-family:'poppins';
+    background: transparent;
+    display: inline;
+    padding-top: 5px;
+    padding-left:10px;
+    float:right;
+
+}
+.button_content{
+    background: transparent;
+    display: inline-block;
+    align-content: center;
+     
+}

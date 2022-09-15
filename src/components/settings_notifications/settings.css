@@ -1,0 +1,14 @@
+.bg{
+    
+    width:297px;
+    height:82vh;
+    padding: 20px;
+    position:absolute;
+    margin-top: 90px;
+    
+    border:1px solid rgba(255, 255, 255, 0.08);
+}
+.main_bg{
+    background: linear-gradient(180deg, rgba(81, 78, 78, 0.5) 0%, rgba(41, 37, 37, 0.3) 92%) !important;
+       
+}

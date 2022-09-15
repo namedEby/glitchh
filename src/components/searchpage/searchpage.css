@@ -1,0 +1,35 @@
+.notiCard{
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;  
+    position:absolute;
+    top: 10px;
+    left:15%;
+    width:60%;
+    padding: 10px;
+    
+}
+.notiCard::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+.notiSub:first-of-type{
+    padding-top: 30px;
+}
+.notiSub{
+    margin-top: 0px;
+    padding-left:10px;
+    color: 
+    rgba(134, 129, 129, 1);
+    font-family: 'poppins';
+    font-size: 20px;
+}
+.itemNoti{
+
+    padding-bottom: 25px;
+}
